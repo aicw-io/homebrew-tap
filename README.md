@@ -4,22 +4,20 @@ Homebrew formulae for [aicw-io](https://github.com/aicw-io) projects.
 
 ## Install a formula
 
-Until v1.0.0 ships, install the development version from the `main`
-branch:
-
-```bash
-brew install --HEAD aicw-io/tap/aicw-video
-```
-
-Once v1.0.0 is published, the `--HEAD` flag will no longer be required:
+Install the latest stable release:
 
 ```bash
 brew install aicw-io/tap/aicw-video
 ```
 
-Either form pulls Homebrew's `node`, `ffmpeg`, `whisper-cpp`, and
-`yt-dlp` formulae as dependencies, so you don't need to install them
-separately.
+To install the development version from the upstream `main` branch:
+
+```bash
+brew install --HEAD aicw-io/tap/aicw-video
+```
+
+Either form pulls Homebrew's `node`, `ffmpeg`, and `whisper-cpp` formulae as
+dependencies, so you don't need to install them separately.
 
 ## Formulae in this tap
 
