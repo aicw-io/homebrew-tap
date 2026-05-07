@@ -16,8 +16,8 @@ To install the development version from the upstream `main` branch:
 brew install --HEAD aicw-io/tap/aicw-video
 ```
 
-Either form pulls Homebrew's `node`, `ffmpeg`, and `whisper-cpp` formulae as
-dependencies, so you don't need to install them separately.
+Either form pulls Homebrew's `node`, `ffmpeg-full`, and `whisper-cpp` formulae
+as dependencies, so you don't need to install them separately.
 
 ## Formulae in this tap
 
